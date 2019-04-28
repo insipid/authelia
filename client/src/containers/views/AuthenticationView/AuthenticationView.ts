@@ -25,8 +25,13 @@ const mapStateToProps = (state: RootState, ownProps: OwnProps): StateProps => {
   let url: string | null = null;
   if (ownProps.location) {
     const params = QueryString.parse(ownProps.location.search);
+    const searchParams = new URLSearchParams(window.location.search);
+    console.log(searchParams.get('rd'));
+
     if ('rd' in params) {
       url = params['rd'] as string;
+    } else if (searchParams.has('rd')) {
+      url = searchParams.get('rd') as string;
     }
   }
 
