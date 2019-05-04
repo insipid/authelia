@@ -1,0 +1,1 @@
+{"version":3,"file":"MongoCollectionFactory.js","sourceRoot":"","sources":["../../../../../../server/src/lib/storage/mongo/MongoCollectionFactory.ts"],"names":[],"mappings":";;AAGA,uDAAoD;AAKpD;IAGE,YAAY,WAAyB;QACnC,IAAI,CAAC,WAAW,GAAG,WAAW,CAAC;IACjC,CAAC;IAED,KAAK,CAAC,cAAsB;QAC1B,OAAO,IAAI,iCAAe,CAAC,cAAc,EAAE,IAAI,CAAC,WAAW,CAAC,CAAC;IAC/D,CAAC;CACF;AAVD,wDAUC"}
